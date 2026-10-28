@@ -1,0 +1,10 @@
+{
+  "_comment": "WorkBuddy 配置路径 ~/.workbuddy/mcp.json；Claude Desktop 是 claude_desktop_config.json。把 mcpServers 下的内容合并进去，不要覆盖已有条目。核实于 2026-10-29。",
+  "mcpServers": {
+    "elevenlabs": {
+      "_comment": "官方托管 MCP，OAuth 登录，不需要 API key。功能以 agent 管理为主，另有文本转语音工具（返回短时下载链接）。首次启用需在连接器管理页点「信任」。",
+      "url": "https://api.elevenlabs.io/v1/mcp"
+    }
+  },
+  "_note": "本地版 elevenlabs-mcp 已于 2026-08-22 弃用、仓库归档，不要再装。批量生产建议直接调 API 并把参数记入 runs.csv。"
+}
