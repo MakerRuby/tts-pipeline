@@ -6,9 +6,9 @@
 
 - 入口与流程：SKILL.md（S0–S9 流程与运行规则）
 - 跨 Agent 安装：INSTALL.md
-- 参考资料：eferences/（原理、场景卡、平台、技法、提示词、词典、QA 与交付）
+- 参考资料：[references/](references/)（原理、场景卡、平台、技法、提示词、词典、QA 与交付）
 - 脚本：scripts/（建项目、多音字扫描、ASR 回检）
-- 项目模板与试音文本：ssets/
+- 项目模板与试音文本：[assets/](assets/)
 
 > 注意：SKILL.md 内的模型名、价格、MCP 端点均为 2026-10 快照，执行前请联网核实。
 
